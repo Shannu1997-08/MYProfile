@@ -68,7 +68,7 @@ export const ContactInfo = () => {
               />
               <span className="label">GitHub:</span>
               <a
-                href="https://github.com/shanmukhvemala"
+                href="https://github.com/Shannu1997-08/MYProfile.git"
                 target="_blank"
                 rel="noreferrer"
                 className="value link"
