@@ -46,5 +46,6 @@
     "ajv": "^6.12.6",
     "ajv-keywords": "^3.5.2"
   },
-  "homepage": "https://github.com/Shannu1997-08/MYProfile.git"
+  // "homepage": "https://github.com/Shannu1997-08/MYProfile.git",
+  "homepage": "https://shanmukh.github.io/my-portfolio"
 }
