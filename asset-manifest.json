@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/Shannu1997-08/MYProfile.git/static/css/main.ee5c8ed6.css",
-    "main.js": "/Shannu1997-08/MYProfile.git/static/js/main.9c4fe9cb.js",
-    "static/js/453.0b52fa76.chunk.js": "/Shannu1997-08/MYProfile.git/static/js/453.0b52fa76.chunk.js",
+    "main.css": "/Shannu1997-08/MYProfile.git/static/css/main.67dce99f.css",
+    "main.js": "/Shannu1997-08/MYProfile.git/static/js/main.0dffd19a.js",
     "static/media/BackgrndImage.jpg": "/Shannu1997-08/MYProfile.git/static/media/BackgrndImage.eed0ee9c96ae8449edd7.jpg",
     "index.html": "/Shannu1997-08/MYProfile.git/index.html",
-    "main.ee5c8ed6.css.map": "/Shannu1997-08/MYProfile.git/static/css/main.ee5c8ed6.css.map",
-    "main.9c4fe9cb.js.map": "/Shannu1997-08/MYProfile.git/static/js/main.9c4fe9cb.js.map",
-    "453.0b52fa76.chunk.js.map": "/Shannu1997-08/MYProfile.git/static/js/453.0b52fa76.chunk.js.map"
+    "main.67dce99f.css.map": "/Shannu1997-08/MYProfile.git/static/css/main.67dce99f.css.map",
+    "main.0dffd19a.js.map": "/Shannu1997-08/MYProfile.git/static/js/main.0dffd19a.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee5c8ed6.css",
-    "static/js/main.9c4fe9cb.js"
+    "static/css/main.67dce99f.css",
+    "static/js/main.0dffd19a.js"
   ]
 }
