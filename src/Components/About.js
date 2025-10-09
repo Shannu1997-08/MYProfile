@@ -20,7 +20,7 @@ const About = () => {
       {/* About Section */}
       <div className={`about-container ${animate ? "fade-in" : ""}`}>
         <div className="about-image">
-          <img src={profilePicture} alt="Shanmukh Shannu" />
+          <img src={process.env.PUBLIC_URL + profilePicture} alt="Shanmukh Shannu" />
         </div>
         <div className="about-content">
           <p className="about-text">
