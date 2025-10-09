@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Button, Modal } from "react-bootstrap";
+import { profilePicture } from "./ComonIcon";
 
 const About = () => {
   const [open, setOpen] = useState(false);
@@ -19,7 +20,7 @@ const About = () => {
       {/* About Section */}
       <div className={`about-container ${animate ? "fade-in" : ""}`}>
         <div className="about-image">
-          <img src="/photo.jpg" alt="Shanmukh Shannu" />
+          <img src={profilePicture} alt="Shanmukh Shannu" />
         </div>
         <div className="about-content">
           <p className="about-text">
