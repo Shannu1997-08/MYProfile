@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Button, Modal } from "react-bootstrap";
-import { profilePicture } from "./ComonIcon";
 
 const About = () => {
   const [open, setOpen] = useState(false);
@@ -20,11 +19,11 @@ const About = () => {
       {/* About Section */}
       <div className={`about-container ${animate ? "fade-in" : ""}`}>
         <div className="about-image">
-          <img src={process.env.PUBLIC_URL + profilePicture} alt="Shanmukh Shannu" />
+          <img src={process.env.PUBLIC_URL +"/assets/photo.jpg"} alt="Shanmukh Shannu" />
         </div>
         <div className="about-content">
           <p className="about-text">
-            Hello! I'm <span className="highlight-name">Shanmukh V</span>, a
+            Hello! I'm <span className="highlight-name">Shanmukh V</span>,a
             creative and dedicated{" "}
             <span className="highlight-designation">Frontend Developer</span>{" "}
             with <strong>4 years of experience</strong> building responsive,
@@ -79,7 +78,7 @@ const About = () => {
         </Modal.Header>
         <Modal.Body>
           <iframe
-            src="/ShanmukhV.pdf"
+            src={process.env.PUBLIC_URL + "/assets/ShanmukhV.pdf"}
             title="Resume"
             width="100%"
             height="500px"

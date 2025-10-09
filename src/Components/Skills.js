@@ -20,11 +20,11 @@ export const Skills = () => {
         </>
       ),
       cards: [
-        { name: "React JS", src: "/logo192.png" },
-        { name: "JavaScript", src: "/JavaScript.png" },
-        { name: "Redux", src: "/Redux.png" },
-        { name: "React Router", src: "reactrouter.png" },
-        { name: "React Bootstrap", src: "/ReactBootstrap.png" },
+        { name: "React JS", src: process.env.PUBLIC_URL + "/assets/logo192.png" },
+        { name: "JavaScript", src: process.env.PUBLIC_URL + "/assets/JavaScript.png" },
+        { name: "Redux", src: process.env.PUBLIC_URL + "/assets/Redux.png" },
+        { name: "React Router", src: process.env.PUBLIC_URL + "/assets/reactrouter.png" },
+        { name: "React Bootstrap", src: process.env.PUBLIC_URL + "/assets/ReactBootstrap.png" },
       ],
     },
     {
@@ -40,11 +40,11 @@ export const Skills = () => {
         </>
       ),
       cards: [
-        { name: "Axios", src: "/Azios.png" },
-        { name: "Postman", src: "/Postman.png" },
-        { name: "Bitbucket", src: "/BitBucket.png" },
-        { name: "Jira", src: "/Jira.png" },
-        { name: "GitHub", src: "GitHub.png" },
+        { name: "Axios", src: process.env.PUBLIC_URL +"/assets/Azios.png" },
+        { name: "Postman", src: process.env.PUBLIC_URL +"/assets/Postman.png" },
+        { name: "Bitbucket", src: process.env.PUBLIC_URL +"/assets/BitBucket.png" },
+        { name: "Jira", src: process.env.PUBLIC_URL +"/assets/Jira.png" },
+        { name: "GitHub", src: process.env.PUBLIC_URL +"/assets/GitHub.png" },
       ],
     },
     {
@@ -58,11 +58,11 @@ export const Skills = () => {
         <span className="highlight antd"> Ant Design </span> — for enterprise-ready React components and professional UI.
       </>,
       cards: [
-        { name: "CSS3", src: "/CSS3.png" },
-        { name: "Bootstrap", src: "/Bootstrap.png" },
-        { name: "HTML5", src: "/HTML5.png" },
-        { name: "Tailwind CSS", src: "/Tailwind CSS.png" },
-        { name: "Antd", src: "/Ant Design.png" },
+        { name: "CSS3", src: process.env.PUBLIC_URL +"/assets/CSS3.png" },
+        { name: "Bootstrap", src: process.env.PUBLIC_URL +"/assets/Bootstrap.png" },
+        { name: "HTML5", src: process.env.PUBLIC_URL +"/assets/HTML5.png" },
+        { name: "Tailwind CSS", src: process.env.PUBLIC_URL +"/assets/Tailwind CSS.png" },
+        { name: "Antd", src: process.env.PUBLIC_URL +"/assets/Ant Design.png" },
       ],
     },
     {
@@ -78,12 +78,12 @@ export const Skills = () => {
         which helps me understand how they work and how to integrate them in real-world applications.
       </>,
       cards: [
-        { name: "MongoDB", src: "/mongoDB.png" },
-        { name: "Express.js", src: "/Express.png" },
-        { name: "React Native", src: "/logo192.png" },
-        { name: "Node.js", src: "/Node.js.png" },
-        { name: "Jest", src: "/Jest.png" },
-        
+        { name: "MongoDB", src: process.env.PUBLIC_URL +"/assets/mongoDB.png" },
+        { name: "Express.js", src: process.env.PUBLIC_URL +"/assets/Express.png" },
+        { name: "React Native", src: process.env.PUBLIC_URL +"/assets/logo192.png" },
+        { name: "Node.js", src: process.env.PUBLIC_URL +"/assets/Node.js.png" },
+        { name: "Jest", src: process.env.PUBLIC_URL +"/assets/Jest.png" },
+
       ],
     },
   ];
